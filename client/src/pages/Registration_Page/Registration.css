@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(5 29 64);
+
+}
+.maindiv {
+    margin: auto;
+    width: 600px;
+    border: solid 2px #ffffff;
+    MARGIN-TOP: 1%;
+    height: auto;
+    border-radius: 8px;
+    background-color: rgb(143 143 143 / 26%);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+input {
+    padding-block: 13px;
+    margin-left: 7%;
+    width: 86%;
+    margin-top: 24px;
+    font-size: 23px;
+    font-family: monospace;
+    padding-left: 22px;
+    font-size: ui-rounded;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    border-bottom: solid 1.5px;
+    border-color: white;
+    outline: none;
+    border-bottom: solid 2px;
+    border-color: #ffffffa1;
+    color: rgb(0, 0, 0);
+}
+input:hover{
+    border-bottom: solid 1px #09ac2c;
+    
+}
+.username{
+    margin-top: 38px;
+}
+.button1 {
+    padding-block: 19px;
+    margin-left: 7%;
+    width: 86%;
+    color: white;
+    border-radius: 4px;
+     background: #f9b054;
+
+    border: none;
+    font-family: monospace;
+    font-size: 25px;
+}
+.button1:hover{
+    background-color: #262829;
+    transition: 1s;
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.689);
+    font-size: 20px;
+}
+@media (max-width:500px){
+    .maindiv{
+       margin-top: 70%; 
+    }
+    body{
+        background-color: rgb(5 29 64);
+    }
+}

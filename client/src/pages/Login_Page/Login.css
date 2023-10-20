@@ -1,0 +1,52 @@
+.divv{
+    background-color: rgb(5 29 64);
+    padding: 1px;
+    height: 100vh;
+    width: auto;
+}
+.maindivL {
+    margin: auto;
+    width: 450px;
+    height: 415px;
+    background-color: #e3f2fd14;
+    border: solid 2px white;
+    margin-top: 160px;
+    box-shadow: -8 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 6px;
+}
+.inputbox{
+    padding-block: 18px;
+    margin-left: 38px;
+    width: 82%;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: monospace;
+    padding-left: 22px;
+    font-size: ui-rounded;
+    background-color: #e0dddd;
+    border: none;
+}
+.inputbox::placeholder{
+    color: rgb(85, 84, 84);
+}
+#username{
+    margin-top: 50px;
+}
+.button2{
+padding-block: 18px;
+margin-left: 36px;
+width: 83%;
+color: white;
+background: #f9b054;
+border: none;
+font-family: monospace;
+font-size: 23px;
+cursor: pointer;
+
+}
+.button2:hover{
+    background-color:#925c19;
+    border-radius: 10px;
+  transition: 1s;
+}
+

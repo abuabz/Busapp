@@ -1,0 +1,65 @@
+#trackbus-main {
+    width: 80%;
+    height: auto;
+    background-color: #ffffff26;
+    margin: auto;
+    border: solid 2px white;
+    border-radius: 20px;
+}
+.css-55vwbm-MuiTimeline-root {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 6px 16px;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    color: white;
+}
+@media(max-width:500px){
+    #trackbus-main {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff26;
+        margin: auto;
+        border: solid 2px white;
+        border-radius: 20px;
+    }
+}
+.css-2ulfj5-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 5.6;
+    letter-spacing: 0.0075em;
+}
+.css-v6mo1y-MuiTimelineDot-root {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: baseline;
+    -ms-flex-item-align: baseline;
+    align-self: baseline;
+    border-style: solid;
+    border-width: 2px;
+    padding: 4px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    margin: 11.5px 0;
+    border-color: transparent;
+    color: #fafafa;
+    background-color: #f9b054;
+}
+#conector{
+ height: 30px;
+}
+#disname{
+    padding-top: 43px;
+}

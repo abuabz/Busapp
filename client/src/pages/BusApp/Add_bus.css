@@ -1,0 +1,155 @@
+#track-main {
+    margin: auto;
+    width: 658px;
+    height: auto;
+    background-color: #e3f2fd14;
+    border: solid 2px white;
+    margin-top: 11px;
+    box-shadow: -8 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 6px;
+}
+.inputbox-addbus{   
+            padding-block: 18px;
+            margin-left: 63px;
+            width: 82%;
+            margin-top: 30px;
+            font-size: 23px;
+            font-family: monospace;
+            padding-left: 22px;
+            font-size: ui-rounded;
+            background-color: #e0dddd;
+            text-align: center;
+            border: none;
+}
+.inputbox-addbus::placeholder{
+    color: rgb(85, 84, 84);
+}
+#bustime-inputbox{
+    display: flex;
+    width: 100%;
+}
+
+#endtime{
+    margin-right: 55px;
+
+}
+.Addbus-btn {
+    padding-block: 18px;
+    width: 53%;
+    color: white;
+    background: #f9b05412;
+    border: none;
+    font-family: monospace;
+    font-size: 23px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 23%;
+    border-radius: 10px;
+    border: solid #f9b054d6;
+}
+    .Addbus-btn:hover{
+        background-color:#925c19;
+        border-radius: 10px;
+      transition: .3s;
+    }
+    
+    #to {
+        color: white;
+        margin: auto;
+        padding: 0px;
+        font-size: xx-large;
+        margin-left: 53PX;
+        margin-top: 42px;
+    }
+
+
+
+
+@media(max-width:800px){
+    
+    #to {
+        text-align: center;
+        margin-left: 0px;
+     }
+    #track-main {
+        margin: auto;
+        width: 100%;
+        height: auto;
+        background-color: #e3f2fd14;
+        border: solid 2px white;
+        margin-top: 2px;
+        box-shadow: -8 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        border-radius: 6px;
+    }   
+    .inputbox-addbus{
+        padding-block: 18px;
+        margin-left: 72px;
+        width: 82%;
+        margin-top: 30px;
+        font-size: 23px;
+        font-family: monospace;
+        padding-left: 22px;
+        font-size: ui-rounded;
+        background-color: #e0dddd;
+        border: none;
+        text-align: center;
+          
+    }
+    #bustime-inputbox{
+        display: block;
+        width: 100%;
+    }
+   
+}
+@media(max-width:500px){
+    .inputbox-addbus{
+        padding-block: 18px;
+        margin-left: 30px;
+        width: 82%;
+        margin-top: 30px;
+        font-size: 23px;
+        font-family: monospace;
+        padding-left: 22px;
+        font-size: ui-rounded;
+        background-color: #e0dddd;
+        border: none;
+        text-align: center;
+    }
+    
+    #to {
+        text-align: center;
+        margin-left: 0px;
+     }
+     .form-select-lg {
+        padding-block: 18px;
+        margin-left: auto;
+        width: 82%;
+        margin-top: 30px;
+        font-size: 23px;
+        font-family: monospace;
+        padding-left: 22px;
+        font-size: ui-rounded;
+        background-color: #e0dddd;
+        border: none;
+        text-align: center;
+    }
+
+}
+#bus-number{
+    text-transform:uppercase; 
+    margin-top: 50px;
+}
+.form-select-lg {
+    padding-block: 18px;
+    margin: auto;
+    width: 82%;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: monospace;
+    padding-left: 22px;
+    font-size: ui-rounded;
+    background-color: #e0dddd;
+    border: none;
+    text-align: center;
+}
+
